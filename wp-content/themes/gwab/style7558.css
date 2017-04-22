@@ -1,0 +1,39 @@
+/*
+	Theme Name: gwab
+	Template: hueman
+*/
+
+/* ------------------------------------------------------------------------- *
+ *  Theme customization starts here
+/* ------------------------------------------------------------------------- */
+
+.site-description {
+	margin-top: 8px;
+	font-size: 50px;
+}
+
+/* https://codex.bbpress.org/bbpress-styling-crib/ */
+#bbpress-forums li.bbp-header,
+#bbpress-forums div.bbp-reply-header,
+div.bbp-template-notice.info,
+#bbpress-forums div.odd,
+#bbpress-forums ul.odd,
+#bbpress-forums div.even,
+#bbpress-forums ul.even,
+.bbp-topics-front ul.super-sticky,
+.bbp-topics ul.super-sticky,
+.bbp-topics ul.sticky,
+.bbp-forum-content ul.sticky,
+#bbpress-forums .bbp-topic-content p,
+#bbpress-forums .bbp-reply-content p,
+span.bbp-admin-links a,
+div.bbp-template-notice,
+#bbpress-forums .submit,
+#content .entry-title,
+#bbpress-forums > * {
+font-size: 16px;
+}
+
+code {
+	font-size: 200%;
+}
